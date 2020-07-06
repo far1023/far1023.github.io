@@ -77,6 +77,7 @@ img {
 		width: 570px;
 		height: 760px;
 		transform-style: preserve-3d;
+		-webkit-perspective: 600px;
 		perspective: 600px;
 		transition: .8s;
 	}
@@ -144,6 +145,7 @@ img {
 		width: 330px;
 		height: 440px;
 		transform-style: preserve-3d;
+		-webkit-perspective: 600px;
 		perspective: 600px;
 		transition: .8s;
 	}
