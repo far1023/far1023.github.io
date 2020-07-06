@@ -141,8 +141,8 @@ img {
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%,-50%);
-		width: 360px;
-		height: 480px;
+		width: 330px;
+		height: 440px;
 		transform-style: preserve-3d;
 		perspective: 600px;
 		transition: .8s;
@@ -160,12 +160,12 @@ img {
 	.card .back .details h2 {
 		margin: 0;
 		padding: 0;
-		font-size: 22px;
+		font-size: 20px;
 		color: #fff;
 	}
 	.card .back .details h2 span {
 		color: #C49843;
-		font-size: 18px;
+		font-size: 16px;
 	}
 	.social {
 		padding: 10px 0;
@@ -187,7 +187,7 @@ img {
 	}
 	p {
 		color: #C49843;
-		font-size: 16px;
+		font-size: 14px;
 	}
 	.link a {
 		color: #A1A1A1;
