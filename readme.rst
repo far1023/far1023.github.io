@@ -19,4 +19,3 @@ Contact
 
 -  Email: fuadagilr@gmail.com
 -  Loc: Pekanbaru, ID
-
