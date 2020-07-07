@@ -10,7 +10,9 @@ function load() {
 	hashId = location.hash.substr(1);
 
 	getContent(hashId, function (content) {
-		$('#app').html(content);
+		$('#app').fadeOut(1023, function() {
+			$(this).html(content)
+		}).fadeIn(1023);
 	});
 }
 
