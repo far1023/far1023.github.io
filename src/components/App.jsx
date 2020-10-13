@@ -12,8 +12,7 @@ function App() {
 		<AnimatedSwitch atEnter={{ opacity: 0 }} atLeave={{ opacity: 0 }} atActive={{ opacity: 1 }} className="switch-wrapper">
 		<div>
 		<Switch>
-		<Route exact path="/">
-		<Redirect to="/about" />
+		<Route exact path="/" component={About} >
 		</Route>
 		<Route path="/about" component={About} />
 		<Route path="/tech" component={Tech} />
