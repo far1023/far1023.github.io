@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/far1023.github.io/static/css/main.e6531932.chunk.css",
-    "main.js": "/far1023.github.io/static/js/main.2ff9fd95.chunk.js",
-    "main.js.map": "/far1023.github.io/static/js/main.2ff9fd95.chunk.js.map",
+    "main.js": "/far1023.github.io/static/js/main.aa7946d4.chunk.js",
+    "main.js.map": "/far1023.github.io/static/js/main.aa7946d4.chunk.js.map",
     "runtime-main.js": "/far1023.github.io/static/js/runtime-main.cf4c75a3.js",
     "runtime-main.js.map": "/far1023.github.io/static/js/runtime-main.cf4c75a3.js.map",
-    "static/js/2.e0f5a2ea.chunk.js": "/far1023.github.io/static/js/2.e0f5a2ea.chunk.js",
-    "static/js/2.e0f5a2ea.chunk.js.map": "/far1023.github.io/static/js/2.e0f5a2ea.chunk.js.map",
+    "static/js/2.b4ac86e4.chunk.js": "/far1023.github.io/static/js/2.b4ac86e4.chunk.js",
+    "static/js/2.b4ac86e4.chunk.js.map": "/far1023.github.io/static/js/2.b4ac86e4.chunk.js.map",
     "index.html": "/far1023.github.io/index.html",
-    "precache-manifest.aec61711e11a789f8ade6176b6fcfa19.js": "/far1023.github.io/precache-manifest.aec61711e11a789f8ade6176b6fcfa19.js",
+    "precache-manifest.c4f60b362fee53690fdaae341bb6ad92.js": "/far1023.github.io/precache-manifest.c4f60b362fee53690fdaae341bb6ad92.js",
     "service-worker.js": "/far1023.github.io/service-worker.js",
     "static/css/main.e6531932.chunk.css.map": "/far1023.github.io/static/css/main.e6531932.chunk.css.map",
-    "static/js/2.e0f5a2ea.chunk.js.LICENSE.txt": "/far1023.github.io/static/js/2.e0f5a2ea.chunk.js.LICENSE.txt"
+    "static/js/2.b4ac86e4.chunk.js.LICENSE.txt": "/far1023.github.io/static/js/2.b4ac86e4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.cf4c75a3.js",
-    "static/js/2.e0f5a2ea.chunk.js",
+    "static/js/2.b4ac86e4.chunk.js",
     "static/css/main.e6531932.chunk.css",
-    "static/js/main.2ff9fd95.chunk.js"
+    "static/js/main.aa7946d4.chunk.js"
   ]
 }
