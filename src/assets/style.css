@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;600&display=swap');
+body {
+	background: #1a1a1a;
+	margin: 0;
+	padding: 0;
+	font-family: 'Josefin Sans', sans-serif;
+}
+img {
+	min-height: 100%;
+	min-width: 100%;
+}
+
+.social a:hover {
+	color: #0a0a0a;
+	background: #DBAA4B;
+}
+.link {
+	color: #A1A1A1;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%, 100%);
+}
+.link .route:hover {
+	color: #eee;
+	text-decoration: underline;
+}
+
+/*@media only screen and (max-width: 600px) {
+}*/
+
+@media only screen and (min-width: 600px) {
+	.social {
+		padding: 10px 0;
+	}
+	.social a {
+		display: inline-block;
+		width: 50px;
+		height: 50px;
+		text-align: center;
+		background: #41392B;
+		color: #fff;
+		text-decoration: none;
+		border-radius: 0%;
+		transition: .3s;
+	}
+	.social a .fa {
+		font-size: 26px;
+		line-height: 50px;
+	}
+	.social a .fab {
+		font-size: 26px;
+		line-height: 50px;
+	}
+	.tech .fab {
+		padding: 5px;
+		color: #a0a0a0;
+	}
+	p {
+		color: #C49843;
+		font-size: 26px;
+	}
+	.link .route {
+		color: #A1A1A1;
+		font-size: 18px;
+		text-decoration: none;
+	}
+}
+
+/*@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+}*/
+
+@media only screen and (min-width: 1200px) {
+	.social {
+		padding: 10px 0;
+	}
+	.social a {
+		display: inline-block;
+		width: 36px;
+		height: 36px;
+		text-align: center;
+		background: #41392B;
+		color: #fff;
+		text-decoration: none;
+		border-radius: 0%;
+		transition: .3s;
+	}
+	.social a .fa {
+		font-size: 16px;
+		line-height: 36px;
+	}
+	.social a .fab {
+		font-size: 16px;
+		line-height: 36px;
+	}
+	.tech .fab {
+		padding: 10px;
+		color: #a0a0a0;
+	}
+	p {
+		color: #C49843;
+		font-size: 14px;
+	}
+	.link .route {
+		color: #A1A1A1;
+		font-size: 12px;
+		text-decoration: none;
+	}
+}
