@@ -1,4 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;600&display=swap');
+body {
+	background: #1a1a1a;
+	margin: 0;
+	padding: 0;
+	font-family: 'Josefin Sans', sans-serif;
+}
+img .profpic {
+	min-height: 100%;
+	min-width: 100%;
+}
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 50px;
+	width: 100%;
+	color: #707070;
+	font-size: x-small;
+	text-align: center;
+}
+
+.card .front {	overflow:hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #0a0a0a;
+	backface-visibility: hidden;
+	transform: rotateY(0deg);
+	transition: .8s;
+}
+.card:hover .front {
+	transform: rotateY(-180deg);
+}
+.card .back {
+	overflow:hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #0a0a0a;
+	backface-visibility: hidden;
+	transform: rotateY(180deg);
+	transition: .8s;
+}
+.card .back:before {
+	content: ' ';
+	position: absolute;
+	top: 0;
+	left: -50%;
+	width: 100%;
+	height: 100%;
+	background: rgba(255,255,255,.01);
+}
+.card:hover .back {
+	transform: rotateY(0deg);
+}
 .social a:hover {
 	color: #0a0a0a;
 	background: #DBAA4B;
@@ -17,86 +75,219 @@
 }
 
 /*@media only screen and (max-width: 600px) {
-}*/
+	}*/
 
-@media only screen and (min-width: 600px) {
-	.social {
-		padding: 10px 0;
+	@media only screen and (min-width: 600px) {
+		.card {
+			position: absolute;
+			top: 40%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			width: 570px;
+			height: 760px;
+			transform-style: preserve-3d;
+			-webkit-perspective: 900000px;
+			perspective: 900000px;
+			transition: .8s;
+		}
+		.card .back .details {
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			left: 0;
+			width: 100%;
+			text-align: center;
+			padding: 60px;
+			box-sizing: border-box;
+		}
+		.card .back .details h2 {
+			margin: 0;
+			padding: 0;
+			font-size: 46px;
+			color: #fff;
+		}
+		.card .back .details h2 span {
+			color: #C49843;
+			font-size: 32px;
+		}
+		.social {
+			padding: 10px 0;
+		}
+		.social a {
+			display: inline-block;
+			width: 50px;
+			height: 50px;
+			text-align: center;
+			background: #41392B;
+			color: #fff;
+			text-decoration: none;
+			border-radius: 0%;
+			transition: .3s;
+		}
+		.social a .fa {
+			font-size: 26px;
+			line-height: 50px;
+		}
+		.social a .fab {
+			font-size: 26px;
+			line-height: 50px;
+		}
+		.tech .fab {
+			padding: 5px;
+			color: #a0a0a0;
+		}
+		p {
+			color: #C49843;
+			font-size: 26px;
+		}
+		.link .route {
+			color: #A1A1A1;
+			font-size: 18px;
+			text-decoration: none;
+		}
 	}
-	.social a {
-		display: inline-block;
-		width: 50px;
-		height: 50px;
-		text-align: center;
-		background: #41392B;
-		color: #fff;
-		text-decoration: none;
-		border-radius: 0%;
-		transition: .3s;
-	}
-	.social a .fa {
-		font-size: 26px;
-		line-height: 50px;
-	}
-	.social a .fab {
-		font-size: 26px;
-		line-height: 50px;
-	}
-	.tech .fab {
-		padding: 5px;
-		color: #a0a0a0;
-	}
-	p {
-		color: #C49843;
-		font-size: 26px;
-	}
-	.link .route {
-		color: #A1A1A1;
-		font-size: 18px;
-		text-decoration: none;
-	}
-}
 
 /*@media only screen and (min-width: 768px) {
-}
 
-@media only screen and (min-width: 992px) {
 }*/
+	@media only screen and (min-width: 768px) {
+		.card {
+			position: absolute;
+			top: 40%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			width: 570px;
+			height: 760px;
+			transform-style: preserve-3d;
+			-webkit-perspective: 900000px;
+			perspective: 900000px;
+			transition: .8s;
+		}
+		.card .back .details {
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			left: 0;
+			width: 100%;
+			text-align: center;
+			padding: 60px;
+			box-sizing: border-box;
+		}
+		.card .back .details h2 {
+			margin: 0;
+			padding: 0;
+			font-size: 46px;
+			color: #fff;
+		}
+		.card .back .details h2 span {
+			color: #C49843;
+			font-size: 32px;
+		}
+		.social {
+			padding: 10px 0;
+		}
+		.social a {
+			display: inline-block;
+			width: 50px;
+			height: 50px;
+			text-align: center;
+			background: #41392B;
+			color: #fff;
+			text-decoration: none;
+			border-radius: 0%;
+			transition: .3s;
+		}
+		.social a .fa {
+			font-size: 26px;
+			line-height: 50px;
+		}
+		.social a .fab {
+			font-size: 26px;
+			line-height: 50px;
+		}
+		.tech .fab {
+			padding: 5px;
+			color: #a0a0a0;
+		}
+		p {
+			color: #C49843;
+			font-size: 26px;
+		}
+		.link .route {
+			color: #A1A1A1;
+			font-size: 18px;
+			text-decoration: none;
+		}
+	}
 
-@media only screen and (min-width: 1200px) {
-	.social {
-		padding: 10px 0;
+/*@media only screen and (min-width: 992px) {
+	}*/
+
+	@media only screen and (min-width: 1200px) {
+		.card {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			width: 330px;
+			height: 440px;
+			transform-style: preserve-3d;
+			perspective: 600px;
+			transition: .8s;
+		}
+		.card .back .details {
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			left: 0;
+			width: 100%;
+			text-align: center;
+			padding: 40px;
+			box-sizing: border-box;
+		}
+		.card .back .details h2 {
+			margin: 0;
+			padding: 0;
+			font-size: 20px;
+			color: #fff;
+		}
+		.card .back .details h2 span {
+			color: #C49843;
+			font-size: 16px;
+		}
+		.social {
+			padding: 10px 0;
+		}
+		.social a {
+			display: inline-block;
+			width: 36px;
+			height: 36px;
+			text-align: center;
+			background: #41392B;
+			color: #fff;
+			text-decoration: none;
+			border-radius: 0%;
+			transition: .3s;
+		}
+		.social a .fa {
+			font-size: 16px;
+			line-height: 36px;
+		}
+		.social a .fab {
+			font-size: 16px;
+			line-height: 36px;
+		}
+		.tech .fab {
+			padding: 10px;
+			color: #a0a0a0;
+		}
+		p {
+			color: #C49843;
+			font-size: 14px;
+		}
+		.link .route {
+			color: #A1A1A1;
+			font-size: 12px;
+			text-decoration: none;
+		}
 	}
-	.social a {
-		display: inline-block;
-		width: 36px;
-		height: 36px;
-		text-align: center;
-		background: #41392B;
-		color: #fff;
-		text-decoration: none;
-		border-radius: 0%;
-		transition: .3s;
-	}
-	.social a .fa {
-		font-size: 16px;
-		line-height: 36px;
-	}
-	.social a .fab {
-		font-size: 16px;
-		line-height: 36px;
-	}
-	.tech .fab {
-		padding: 10px;
-		color: #a0a0a0;
-	}
-	p {
-		color: #C49843;
-		font-size: 14px;
-	}
-	.link .route {
-		color: #A1A1A1;
-		font-size: 12px;
-		text-decoration: none;
-	}
-}
