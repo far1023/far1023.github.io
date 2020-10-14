@@ -63,6 +63,35 @@ body {
 	padding: 10px;
 	color: #a0a0a0;
 }
+
+/*
+hover color
+*/
+.fab:hover {	
+	-moz-transition: all .2s ease-in;
+	-o-transition: all .2s ease-in;
+	-webkit-transition: all .2s ease-in;
+	transition: all .2s ease-in;
+}
+.tech .fa-php:hover {
+	color: #8892BF;
+}
+.tech .fa-js-square:hover {
+	color: #EFD81D;
+}
+.tech .fa-bootstrap:hover {
+	color: #6C419F;
+}
+.tech .fa-node-js:hover {
+	color: #689F63;
+}
+.tech .fa-react:hover {
+	color: #61DAFB;
+}
+.tech .fa-git-alt:hover {
+	color: #EB4D28;
+}
+
 p {
 	color: #C49843;
 	font-size: 14px;
