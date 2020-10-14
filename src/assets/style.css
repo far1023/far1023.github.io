@@ -5,10 +5,74 @@ body {
 	padding: 0;
 	font-family: 'Josefin Sans', sans-serif;
 }
-img .profpic {
-	min-height: 100%;
-	min-width: 100%;
+
+.card {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 330px;
+	height: 440px;
+	transform-style: preserve-3d;
+	perspective: 600px;
+	transition: .8s;
 }
+.card .back .details {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0;
+	width: 100%;
+	text-align: center;
+	padding: 40px;
+	box-sizing: border-box;
+}
+.card .back .details h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	color: #fff;
+}
+.card .back .details h2 span {
+	color: #C49843;
+	font-size: 16px;
+}
+.social {
+	padding: 10px 0;
+}
+.social a {
+	display: inline-block;
+	width: 36px;
+	height: 36px;
+	text-align: center;
+	background: #41392B;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 0%;
+	transition: .3s;
+}
+.social a .fa {
+	font-size: 16px;
+	line-height: 36px;
+}
+.social a .fab {
+	font-size: 16px;
+	line-height: 36px;
+}
+.tech .fab {
+	padding: 10px;
+	color: #a0a0a0;
+}
+p {
+	color: #C49843;
+	font-size: 14px;
+}
+.link .route {
+	color: #A1A1A1;
+	font-size: 12px;
+	text-decoration: none;
+}
+
 .footer {
 	position: fixed;
 	left: 0;
@@ -149,7 +213,7 @@ img .profpic {
 
 /*@media only screen and (min-width: 768px) {
 
-}*/
+	}*/
 	@media only screen and (min-width: 768px) {
 		.card {
 			position: absolute;
