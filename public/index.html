@@ -4,28 +4,53 @@
 	<meta charset="utf-8" />
 	<link rel="icon" href="%PUBLIC_URL%/assets/logo/logoround.ico" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<meta name="theme-color" content="#000000" />
-	<meta name="description" content="Fuad Agil Rosadi" />
 	<link rel="apple-touch-icon" href="%PUBLIC_URL%/assets/logo/logoround.png" />
 	<link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
+	<meta name="author" content="Fuad Agil Rosadi">
+	<meta name="description" content="Take a look at my job. Maybe we can do better.">
+
+	<meta name="theme-color" content="#303030" />
+
+	<meta property="og:url" content="%PUBLIC_URL%" />
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Profile" />
+	<meta property="og:site_name" content="My Github Pages"/>
+	<meta property="og:description" content="Take a look at my job. Maybe we can do better." />
+	<meta property="og:image" content="%PUBLIC_URL%/assets/logo/logo.png" />
+
+	<!-- Google+ / Schema.org -->
+	<meta itemprop="name" content="Profile">
+	<meta itemprop="description" content="Take a look at my job. Maybe we can do better.">
+	<meta itemprop="image" content="%PUBLIC_URL%/assets/logo/logo.png">
+
+	<!-- Twitter -->
+	<meta name="twitter:title" content="Profile">
+	<meta name="twitter:description" content="Take a look at my job. Maybe we can do better.">
+	<meta name="twitter:url" content="%PUBLIC_URL%">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:image" content="%PUBLIC_URL%/assets/logo/logo.png">
+	<meta name="twitter:creator" content="@fuadagil">
+	<meta name="twitter:site" content="@fuadagil">
+
+	<link rel="stylesheet" href="%PUBLIC_URL%/assets/css/scrollbar.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
 	<script src="%PUBLIC_URL%/assets/js/hovertoclick1-0.js"></script>
 
 	<title>Fuad Agil</title>
 </head>
 <body>
-	<div class="card">
-		<div class="front"><img src="%PUBLIC_URL%/assets/doc/img/me.jpg" alt="Me" style="min-height: 100%; min-width: 100%;"></div>
-		<div class="back">
-			<div class="details">
-				<div class="content" id="app">
+	<div id="content">
+		<div class="card">
+			<div class="front"><img src="%PUBLIC_URL%/assets/doc/img/me.webp" alt="Me" style="min-height: 100%; min-width: 100%;"></div>
+			<div class="back">
+				<div class="details">
+					<div id="app">
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="footer">
-		<img src="%PUBLIC_URL%/assets/logo/logo-gold-transparent.png" width="20">
-	</div>
+	<div id="works"></div>
 </body>
 </html>

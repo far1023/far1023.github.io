@@ -11,7 +11,6 @@ const RouteContainer = posed.div({
 	enter: { opacity: 1, delay: 300, beforeChildren: true },
 });
 
-
 function App() {
 	return (
 		<Router>
@@ -19,7 +18,7 @@ function App() {
 				<div id="site-container">
 					<div id="content-container">
 						<PoseGroup>
-							<RouteContainer key={location.key}>
+							<RouteContainer key={location.pathname}>
 								<Switch location={location}>
 									<Route exact path="/" component={About} key="" />
 									<Route path="/about" component={About} key="about" />

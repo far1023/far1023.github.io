@@ -1,16 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;600&display=swap');
+
+html {
+	scroll-behavior: smooth;
+}
+
 body {
-	background: #1a1a1a;
+	background: #181818;
 	margin: 0;
 	padding: 0;
 	font-family: 'Josefin Sans', sans-serif;
 }
 
-.card {
+.footer	{
+	width: 100%;
+	margin-top: 14%;
+	height: 70px;
+	text-align: center;
 	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
+}
+
+#content {
+	padding: 7%;
+}
+
+.card {
+	display: block;
+	margin: auto;
 	width: 330px;
 	height: 440px;
 	transform-style: preserve-3d;
@@ -67,7 +82,7 @@ body {
 /*
 hover color
 */
-.fab:hover {	
+.fab:hover {
 	-moz-transition: all .2s ease-in;
 	-o-transition: all .2s ease-in;
 	-webkit-transition: all .2s ease-in;
@@ -100,16 +115,6 @@ p {
 	color: #A1A1A1;
 	font-size: 12px;
 	text-decoration: none;
-}
-
-.footer {
-	position: fixed;
-	left: 0;
-	bottom: 50px;
-	width: 100%;
-	color: #707070;
-	font-size: x-small;
-	text-align: center;
 }
 
 .card .front {	overflow:hidden;
@@ -172,10 +177,8 @@ p {
 
 	@media only screen and (min-width: 600px) {
 		.card {
-			position: absolute;
-			top: 40%;
-			left: 50%;
-			transform: translate(-50%,-50%);
+			display: block;
+			margin: auto;
 			width: 570px;
 			height: 760px;
 			transform-style: preserve-3d;
@@ -245,10 +248,8 @@ p {
 	}*/
 	@media only screen and (min-width: 768px) {
 		.card {
-			position: absolute;
-			top: 40%;
-			left: 50%;
-			transform: translate(-50%,-50%);
+			display: block;
+			margin: auto;
 			width: 570px;
 			height: 760px;
 			transform-style: preserve-3d;
@@ -318,10 +319,8 @@ p {
 
 	@media only screen and (min-width: 1200px) {
 		.card {
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%,-50%);
+			display: block;
+			margin: auto;
 			width: 330px;
 			height: 440px;
 			transform-style: preserve-3d;
