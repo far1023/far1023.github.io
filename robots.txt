@@ -1,0 +1,10 @@
+# robots.txt for fuadagil.com
+User-agent: *
+Disallow: /assets/
+Disallow: /static/
+
+Sitemap: https://fuadagil.com/sitemap.xml
+
+#Begin Attracta SEO Tools Sitemap. Do not remove
+sitemap: http://cdn.attracta.com/sitemap/6191586.xml.gz
+#End Attracta SEO Tools Sitemap. Do not remove

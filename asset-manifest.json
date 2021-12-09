@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e9e2161b.chunk.css",
+    "main.js": "/static/js/main.7dc5a12e.chunk.js",
+    "main.js.map": "/static/js/main.7dc5a12e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.baf67b5f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.baf67b5f.js.map",
+    "static/js/2.15577a5a.chunk.js": "/static/js/2.15577a5a.chunk.js",
+    "static/js/2.15577a5a.chunk.js.map": "/static/js/2.15577a5a.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.7461a959dc5b336ed69da555560e97c7.js": "/precache-manifest.7461a959dc5b336ed69da555560e97c7.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.e9e2161b.chunk.css.map": "/static/css/main.e9e2161b.chunk.css.map",
+    "static/js/2.15577a5a.chunk.js.LICENSE.txt": "/static/js/2.15577a5a.chunk.js.LICENSE.txt",
+    "static/media/corona.webp": "/static/media/corona.e91b2d3a.webp",
+    "static/media/epusda.webp": "/static/media/epusda.62aa9684.webp",
+    "static/media/silau.webp": "/static/media/silau.574eb2cc.webp",
+    "static/media/sipasti.webp": "/static/media/sipasti.0260b334.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.baf67b5f.js",
+    "static/js/2.15577a5a.chunk.js",
+    "static/css/main.e9e2161b.chunk.css",
+    "static/js/main.7dc5a12e.chunk.js"
+  ]
+}
